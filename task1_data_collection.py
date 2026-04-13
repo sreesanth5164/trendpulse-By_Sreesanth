@@ -4,10 +4,8 @@ import json
 import os
 from datetime import datetime
 
-# Header (required)
 headers = {"User-Agent": "TrendPulse/1.0"}
 
-# Category keywords
 categories = {
     "technology": ["ai", "software", "tech", "code", "computer", "data", "cloud", "api", "gpu", "llm"],
     "worldnews": ["war", "government", "country", "president", "election", "climate", "attack", "global"],
