@@ -7,7 +7,6 @@ try:
 
     print(f"Loaded data: {df.shape}\n")
 
-    # Print first 5 rows
     print("First 5 rows:")
     print(df.head())
 
